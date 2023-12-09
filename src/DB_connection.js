@@ -11,7 +11,7 @@ const UserModel = require("./models/User");
 // URL ----> postgres://DB_USER:DB_PASSWORD@DB_HOST/rickandmorty
 const sequelize = new Sequelize(
   // URL
-  `postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}`,
+  `postgresql://postgres:Ebe3*G1cF4*EC43aDfaABFg5F42Eg2EB@viaduct.proxy.rlwy.net:25806/railway`,
   { logging: false, native: false }
 );
 
